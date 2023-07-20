@@ -6,8 +6,13 @@ def encode(password):
         password_encoded += encoded_num
     return password_encoded
 
-
-
+#def decode(password_encoded):
+   # password = ""
+   # for i in password_encoded:
+   #     decoded_num = str((int(i) - 3) % 10)
+   #     password += decoded_num
+   # return password
+    
 def main():
     while True:
         print("Menu")
