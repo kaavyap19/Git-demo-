@@ -6,16 +6,12 @@ def encode(password):
       
     return password_encoded
 
-def decoder(password):
-  b=[]
-  for i in password:
-    c=(int(i)-3)%10
-    str(c)
-    b.append(c)
-  for j in b:
-    print(j,end="")
+ 
 
 
+ 
+    
+ 
 def main():
     while True:
         print("Menu")
